@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_news"
+        android:icon="@drawable/ic_comment"
+        android:title="@string/news"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_inbox"
+        android:icon="@drawable/ic_mail_inbox"
+        android:title="@string/inbox"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_favorite"
+        android:icon="@drawable/ic_heart"
+        android:title="@string/favorite"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic_user"
+        android:title="@string/account"
+        app:showAsAction="ifRoom" />
+</menu>

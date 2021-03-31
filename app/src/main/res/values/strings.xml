@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Deproo</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+<!--    <string name="back4app_app_id">yUnrQdK5C4UuJz6jOPQ6gwg5kJiicionpA45pIVu</string>-->
+<!--    <string name="back4app_client_key">Ks0mSeIFNKlxZmdJ9aQ3xB3FT6HwpRmt4nReFysy</string>-->
+    <string name="back4app_app_id">XB5TmD2yD6TqqIAw4Z8mL5yB7j24KeJ51hru1OgU</string>
+    <string name="back4app_client_key">SIRjjDTVXrsYWdzplWpHVFysIcEStnUdpnCIT6IR</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="lupa_password">Lupa Password</string>
+    <string name="belum_punya_akun_daftar">Belum punya akun? Daftar</string>
+    <string name="home">Home</string>
+    <string name="news">Berita</string>
+    <string name="inbox">Pesan</string>
+    <string name="favorite">Favorite</string>
+    <string name="account">AKun</string>
+    <string name="pasang_iklan">Pasang Iklan</string>
+    <string name="akun_premium">Akun Premium</string>
+    <string name="iklan_aktif">Iklan Aktif</string>
+    <string name="koneksi">Koneksi</string>
+</resources>

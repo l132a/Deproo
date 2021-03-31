@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/dimens_10">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tl_email"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimens_10"
+            android:hint="@string/email"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tl_password"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimens_10"
+            android:hint="@string/password"
+            app:layout_constraintTop_toBottomOf="@+id/tl_email"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/bt_signup"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimens_10"
+            android:layout_marginEnd="@dimen/dimens_5"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:text="@string/sign_up"
+            app:layout_constraintTop_toBottomOf="@id/tl_password" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
